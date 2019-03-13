@@ -60,10 +60,13 @@ class Person
     "Hi #{friend.name}! It's #{self.name}. How are you?"
   end  
   def start_conversation(person, topic)
-    if topic == "politics"
+    case topic
+    when "politics"
       'blah blah partisan blah lobbyist'
       self.happiness -= 2
       person.happiness -= 2
+    when "weather" 
+      
     end   
   end  
 
