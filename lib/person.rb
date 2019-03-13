@@ -69,7 +69,7 @@ class Person
       'blah blah sun blah rain'
       self.happiness += 1
       person.happiness += 2 
-    when   
+    else    
     end   
   end  
 
