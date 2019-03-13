@@ -54,5 +54,8 @@ class Person
     self.hygiene -= 3
     "♪ another one bites the dust ♫"
   end  
+  def call_friend(friend)
+    self.happiness += 3
+  end  
 
 end  
