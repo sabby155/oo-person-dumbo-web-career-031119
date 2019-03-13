@@ -66,7 +66,10 @@ class Person
       self.happiness -= 2
       person.happiness -= 2
     when "weather" 
-      
+      'blah blah sun blah rain'
+      self.happiness += 1
+      person.happiness += 2 
+    when   
     end   
   end  
 
