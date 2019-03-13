@@ -42,7 +42,7 @@ class Person
   
   def get_paid(salary)
     bank_account += salary
-    puts 
+    puts 'all about the benjamins'
   end
 
 end  
